@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
   <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+
   <script src="components/loader.js"></script>
+  <script src="components/jquery-3.4.1.min.js"></script>
   <script src="components/acao.js"></script>
-  <script src="components/jquery-3.3.1.min.js"></script>
 
   <link rel="stylesheet" href="components/loader.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -53,6 +54,21 @@
       <div clas="col-xs-12">
         <div class="form-group">
           <button class="btn btn-primary btn-block" id="codigoBarra">Código de barra</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div clas="col-xs-12">
+        <div class="form-group">
+          <button class="btn btn-primary btn-block" id="camera">Camera</button>
+          <img id="imagem" class="img-responsive">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div clas="col-xs-12">
+        <div class="form-group">
+          <button class="btn btn-primary btn-block" id="local">Local</button>
         </div>
       </div>
     </div>
